@@ -1,22 +1,30 @@
-nav {
-  background-color: #3B1C32;
+#navbar {
+  /* background-color: #3B1C32; */
+  /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/css/images/gems_by_jonny-lew.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 30vh;
+}
+#subtitle {
+  color: #3b1c32;
 }
 ul {
-  height: 25px;
   align-items: center;
 }
 a.logo-alt {
   font-size: 20px;
+  padding-top: 30px;
 
 }
 a {
   padding: 8px;
   font-size: 16px;
-  color: white;
+  color: #3b1c32;
 }
 a:hover {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.623);
+  color: rgba(59, 28, 50, 0.603);
   font-size: 105%;
 }
 

@@ -1,0 +1,12 @@
+.imgSize {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.imgSize2 {
+  width: 100vw;
+  height: 30vh;
+  object-fit: cover;
+  /* border-radius: 20px; */
+}
