@@ -1,3 +1,6 @@
-h1 {
-  color: #3B1C32;
+@import url("components/banner.css");
+@import url("components/navbar.css");
+
+* {
+  margin: 0;
 }
