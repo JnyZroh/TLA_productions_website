@@ -2,12 +2,43 @@
 @import url("components/navbar.css");
 @import url("components/carousel.css");
 @import url("components/card.css");
+@import url("components/footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+/* font-family: 'Dancing Script', cursive; */
 
 * {
   margin: 0;
 }
 
 body {
-  background-color: #F0F0F0;
+  background-color: #F8FFF4;
+}
 
+.purple {
+  background-color: #460d43;
+}
+.purple-gradient {
+  background-image: linear-gradient(rgba(70, 13, 67, 0.01), rgba(70, 13, 67, 0.1), rgba(70, 13, 67, 0.45),rgba(70, 13, 67, 0.8), rgba(70, 13, 67, 1.0));
+}
+
+.dancing {
+  font-family: 'Dancing Script';
+}
+
+h1, #subtitle {
+  color: #460d43;
+  font-family: 'Dancing Script';
+  font-weight: bolder;
+}
+
+#navbar h1,
+/* #navbar p, */
+.menu {
+  font-family: 'Dancing Script';
+}
+
+/* #navbar p, */
+.menu a {
+  font-size: 24px;
 }

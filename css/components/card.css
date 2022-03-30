@@ -1,24 +1,53 @@
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #F8FFF4;
   font-size: 24px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border: 2px solid #3b1c32;
+  /* border: 2px solid #3b1c32; */
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+.bio-card {
+  min-height: 150px;
+  width: 65%;
+  color: #F8FFF4;
+  font-size: 16px;
+  display: flex;
+  padding: 15px;
+  margin: 20px auto;
+}
 
-.cards {
+.title {
+  font-size: 20px;
+
+}
+
+.bio-card img {
+  object-fit:fill;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.info-card {
+  min-height: 150px;
+  width: 65%;
+  color: #F8FFF4;
+  font-size: 20px;
+  display: flex;
+  padding: 15px;
+  margin: 20px auto;
+}
+
+/* .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
-}
+} */
 
 /* // Smallest device */
 @media (min-width: 100px) and (max-width: 575px) {

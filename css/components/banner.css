@@ -4,7 +4,7 @@
   /* background-position: center; */
   height: 70vh;
   align-items: center;
-  margin: 15px 0 25px 0;
+  padding: 15px 0 0px 0;
 }
 
 .banner h1 {
@@ -20,4 +20,22 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.bannerImg.small{
+  border: 2px solid rgba(59, 28, 50, 0.315);
+  width:200px;
+  height:190px;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.bannerImg.large {
+  border: 2px solid rgba(59, 28, 50, 0.315);
+  width:320px;
+  height:388px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
