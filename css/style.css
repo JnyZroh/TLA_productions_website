@@ -18,6 +18,9 @@ body {
 .purple {
   background-color: #460d43;
 }
+.lightPurple {
+  background-color: rgba(70, 13, 67, 0.7);
+}
 .purple-gradient {
   background-image: linear-gradient(rgba(70, 13, 67, 0.01), rgba(70, 13, 67, 0.1), rgba(70, 13, 67, 0.45),rgba(70, 13, 67, 0.8), rgba(70, 13, 67, 1.0));
 }

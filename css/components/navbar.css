@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover; */
   height: 30vh;
+  /* padding-bottom: 16px; */
 }
 #subtitle {
   color: #460d43;
@@ -19,10 +20,10 @@ ul {
   background-color: #F8FFF4;
   color: rgba(70, 13, 67, 0.7);
 }
+
 a.logo-alt {
   font-size: 20px;
   padding-top: 30px;
-
 }
 a {
   padding: 8px;

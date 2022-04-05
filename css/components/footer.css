@@ -17,7 +17,7 @@
   align-items: center;
   margin-right: 10px;
   padding: 0px 10px;
-  width: 150px;
+  width: auto;
 }
 .footer-links i {
   color: black;
