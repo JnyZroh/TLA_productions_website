@@ -14,11 +14,12 @@
   <title>Celebrate with TLA Productions</title>
 </head>
 <body>
+  <!-- Navigation / menus -->
   <nav id="navbar" class="p-4">
 
     <div class="text-center">
       <h1>Celebrate and Save</h1>
-      <p id="subtitle">Save on time, money, and stress with TLA Productions</p>
+      <p id="subtitle" class="mb-1">Save on time, money, and stress with TLA Productions</p>
     </div>
 
     <div class="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
@@ -56,67 +57,190 @@
     </div>
   </nav>
 
-  <div class="banner d-flex justify-content-center purple-gradient">
+  <!-- Image banner -->
+  <div class="banner d-flex justify-content-center purple-gradient" style="overflow: hidden;">
     <div class="d-flex align-items-center">
-      <!-- <div class="container col-5">
-        <h1>Celebrate and <strong>Save</strong></h1>
-        <p id="subtitle">Save on time, money, and stress with TLA Productions</p>
-      </div> -->
+      <div class="d-flex mt-3">
 
-      <!-- <div class="col-7 d-flex justify-content-center"> -->
-      <div class="d-flex">
-
-        <div>
-          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(css/images/sweet16_bia-OoVxXh1AQZY-unsplash.jpg)">
+        <div  class="hidden">
+          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(css/images/sweet16_bia-OoVxXh1AQZY-unsplash.jpg)">
           </div>
-          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(css/images/blueballoons_sofiya-levchenko-Meeycb5dpXs-unsplash.jpg)">
+          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(css/images/blueballoons_sofiya-levchenko-Meeycb5dpXs-unsplash.jpg)">
           </div>
         </div>
 
-        <div class="m-1 bannerImg large" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(css/images/desserttable_tania-miron-1t4ZtSfNtTc-unsplash.jpg)">
+        <div class="m-1 bannerImg large hidden" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(css/images/desserttable_tania-miron-1t4ZtSfNtTc-unsplash.jpg)">
         </div>
 
         <div>
-          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(css/images/sweet16_sirio-hm3efUMoReg-unsplash.jpg)">
+          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(css/images/sweet16_sirio-hm3efUMoReg-unsplash.jpg)">
           </div>
-          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(css/images/balloon_arch.png)">
+          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(css/images/balloon_arch.png)">
           </div>
         </div>
 
-        <div class="m-1 bannerImg large" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(css/images/weddingsettings_jason-gardner-hiAlkxoq4kk-unsplash.jpg)">
+        <div class="m-1 bannerImg large hidden" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(css/images/weddingsettings_jason-gardner-hiAlkxoq4kk-unsplash.jpg)">
         </div>
 
-        <div>
-          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(css/images/bluebanquet_mayron-oliveira-DcF8W9SBt0k-unsplash.jpg)">
+        <div >
+          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(css/images/bluebanquet_mayron-oliveira-DcF8W9SBt0k-unsplash.jpg)">
           </div>
-          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(css/images/blueballoons_sofiya-levchenko-Meeycb5dpXs-unsplash.jpg)">
+          <div class="m-1 bannerImg small" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(css/images/blueballoons_sofiya-levchenko-Meeycb5dpXs-unsplash.jpg)">
           </div>
         </div>
 
       </div>
-
     </div>
   </div>
-  <div class="100-vw m- purple">
 
-    <div class="container py-5" style="height: auto; width: 80%;">
+<!-- SECTION 3: Meet Tonya -->
+  <div class="100-vw purple" style="padding: 150px 20px;">
 
-      <div class="cards">
-        <div class="bio-card card-category">
-          <img src="./css/images/disco_by_koolshooters.jpg" alt="" style="height: 120px; width: 120px;">
-          <div>
-            <p class="dancing title">Meet Tonya</p>
-            <p>Enthusiast, hobbyist, professional - whichever word you choose to use, Tonya is a party planner who loves to imagine beautiful gatherings and  work to make it happen </p>
+    <div class="container bio" style="height: auto; position: relative;">
+      <div>
+        <img id="bioImage" src="./css/images/disco_by_koolshooters.jpg" alt="" style="height: 350px; width: 300px; position: absolute; top: -40px; left: 40px">
+      </div>
+
+      <div style="padding:0;">
+        <div class="bio-section" style="display:flex;">
+          <div style="width: 60%; font-size: 18px;">
+            <h3 class="dancing" style="font-size: 44px;">Meet Tonya</h3>
+            <p style="margin:0; padding: 10px">Enthusiast<br>
+              Hobbyist<br>
+              Professional<br><br> Whichever word you choose to use, Tonya is a party planner who loves to imagine beautiful gatherings and work to make it happen.
+              She works so that you can celebrate, stress less, and stay in budget.
+            </p>
+          </div>
+          <div class="partners" style="width:40%;">
+            <!-- small img -->
+            <h3 class="dancing" style="font-size: 44px;">Partners</h3>
+            <img src="./css/images/disco_by_koolshooters.jpg" alt="" style="height: 125px; width: 100%; border-radius: 15px 15px 0 0;">
+            <div style="padding: 10px; width: 100%; border-bottom: 1px solid purple; border-left: 1px solid purple; border-right: 1px solid purple; border-radius: 0 0 15px 15px;">
+              <p style="margin:0; font-size: 24px;">Lori’s New Venue </p>
+              <p>Location suited for a variety of large celebrations
+                such as weddings and banquets.</p>
+            </div>
+
           </div>
         </div>
+      </div>
+          <!-- <div class="d-flex">
+          </div>
+        </div> -->
+      <!-- </div> -->
 
-        <div class="info-card  card-category">
-          <p class="dancing title">Wedding Organization</p>
-          <div></div>
-        </div>
+    </div>
 
-        <div class="info-card card-category">
-          <p class="dancing title">Partners and Venues</p>
+    <div style="width:80%; display: flex; margin: 25px auto; justify-content: space-between;">
+      <h3 class="dancing" style="font-size: 44px; color:#F8FFF4; width: 20%; text-align: center; height: fit-content; margin: auto 0;">Gallery</h3>
+      <div class="galleryCards" style="border: 2px solid orange; width:120px; height: 120px; border-radius: 15px;"></div>
+      <div class="galleryCards" style="border: 2px solid orange; width:120px; height: 120px; border-radius: 15px;"></div>
+      <div class="galleryCards" style="border: 2px solid orange; width:120px; height: 120px; border-radius: 15px;"></div>
+      <div class="galleryCards" style="border: 2px solid orange; width:120px; height: 120px; border-radius: 15px;"></div>
+      <div class="galleryCards" style="border: 2px solid orange; width:120px; height: 120px; border-radius: 15px;"></div>
+    </div>
+  </div>
+
+<!-- SECTION 4: More Information -->
+  <!-- <div class="100-vw lightPurple" style="padding: 20px;">
+    <div class="container" style="height: auto;">
+
+      <div class="info-card card-category">
+        <p class="dancing title">Wedding Organization</p>
+        <div></div>
+      </div>
+
+      <div class="info-card card-category">
+        <p class="dancing title">Partners and Venues</p>
+      </div>
+
+    </div>
+  </div> -->
+
+  <!-- SECTION 5: Form -->
+  <div class="purple" style="display:flex; padding: 20px;">
+
+    <!-- <div class="container py-4 purple" style="height: auto; color: white;"> -->
+      <div class="none justify-content-center" style="color: white; width: 50%;">
+        <div class="none" style="height: 100%; display: flex; align-items: center;">
+          <p class="dancing" style="font-size: 42px; text-align: right; width: 100%; padding: 0 50px;">
+            For a beautiful, and <br>
+            affordable celebration,<br>
+            contact TLA Productions<br>
+            </p>
+          </div>
+      </div>
+
+        <div class="none justify-content-center" style="height: auto; color: white; width: 50%; padding: 0 50px;">
+        <div class="none" style="width: 450px;">
+          <!-- <h3 class="dancing" style="font-size: 36px; text-align: center;">Connect with TLA Productions</h3> -->
+          <form action="post" class="dancing" style="font-size: 22px;">
+            <!-- Name -->
+            <div style="display: flex;">
+              <label for="client-name" style="width: 25%;">Name</label>
+              <input type="text" id="client-name" class="form-control form-control-sm">
+            </div>
+            <!-- email  -->
+            <div style="display: flex;">
+              <label for="client-email" style="width: 25%;">Email</label>
+              <input type="email" id="client-email" class="form-control form-control-sm">
+            </div>
+            <!-- number -->
+            <div style="display: flex;">
+              <label for="client-number" style="width: 25%;">Phone</label>
+              <input type="text" id="client-number" class="form-control form-control-sm">
+            </div>
+            <!-- need planning or decorating -->
+            <div class="mx-2 my-3 d-flex justify-content-between">
+              <div>
+                <p class="my-1">I'd like TLA Productions to:</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="decoratingCheckbox">
+                  <label class="form-check-label" for="decoratingCheckbox">
+                    decorate
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="planningCheckbox">
+                  <label class="form-check-label" for="planningCheckbox">
+                    plan and organize
+                  </label>
+                </div>
+              </div>
+              <!-- dropdown: type of event -->
+              <!-- <label for="event-type">Type of Event</label> -->
+              <div>
+                <p class="my-1">For which type of event?</p>
+                <select id="event-type" name="event-type" class="form-control form-control-lg" style="max-width: 150px;">
+                  <option value="anniversary">Anniversary</option>
+                  <option value="baby-shower">Baby Shower</option>
+                  <option value="banquet">Banquet</option>
+                  <option value="birthday">Birthday</option>
+                  <option value="bridal-shower">Bridal Shower</option>
+                  <option value="graduation-party">Graduation Party</option>
+                  <option value="gender-reveal">Gender Reveal</option>
+                  <option value="other">Other</option>
+                  <option value="prom-send-off">Prom</option>
+                  <option value="prom-send-off">Prom Send-Off</option>
+                  <option value="vow-renewal">Vow Renewal</option>
+                  <option value="wedding">Wedding</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- text area questions or details -->
+            <div class="form-group">
+              <label for="details">Additional information</label>
+              <textarea class="form-control form-control-lg" id="details" placeholder="(i.e. theme, number of people, date or season, budget amount)" rows="3"></textarea>
+            </div>
+            <!-- input - link -->
+            <div class="mb-3">
+              <label for="link">Inspired by something seen online?</label>
+              <input type="text" id="link" class="form-control form-control-lg" placeholder="www.google.com/search?q=celebration">
+            </div>
+
+            <input type="submit" value="Send" style="border-radius: 15%;">
+          </form>
         </div>
       </div>
 
@@ -124,18 +248,19 @@
 
   </div>
 
+  <!-- SECTION 6: Social Media Footer -->
   <div class="footer-container">
     <div class="footer">
-      <div class="footer-links">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-      </div>
       <div class="footer-copyright">
-        <p class="dancing">TLA Productions<br>From our <i class="fas fa-heart"></i> to yours!</p>
+        <p class="dancing">from our <i class="fas fa-heart"></i> to yours<br>TLA Productions Inc.</p>
       </div>
+      <!-- <div class="footer-links">
+      </div> -->
       <div class="footer-links">
-        <a href="mailto:jnylqy@gmail.com">Let's talk!</a>
-      </div>
+        <!-- <a href="mailto:jnylqy@gmail.com">Let's talk!</a> -->
+        <!-- <a href="#"><i class="fab fa-facebook"></i></a> -->
+        <a href="#"><i class="fab fa-instagram" style="color: white;"></i></a>
+        </div>
     </div>
   </div>
 </body>

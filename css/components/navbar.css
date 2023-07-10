@@ -5,19 +5,25 @@
   background-repeat: no-repeat;
   background-size: cover; */
   height: 30vh;
+  /* padding-bottom: 16px; */
 }
 #subtitle {
   color: #460d43;
-  font-size: 24px;
-  font-family: 'Dancing Script';
+  font-size: 20px;
+  /* font-family: 'Dancing Script'; */
 }
 ul {
   align-items: center;
 }
+.menu {
+  font-family: 'Dancing Script';
+  background-color: #F8FFF4;
+  color: rgba(70, 13, 67, 0.7);
+}
+
 a.logo-alt {
   font-size: 20px;
   padding-top: 30px;
-
 }
 a {
   padding: 8px;
@@ -30,6 +36,13 @@ a:hover {
   font-size: 105%;
 }
 
+.navbar-toggler {
+  margin: 0 auto;
+}
+
+a.dropdown-item {
+  font-size: 12px;
+}
 /* .navbar-lewagon {
   justify-content: space-between;
   background: #3B1C32;
